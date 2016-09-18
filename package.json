@@ -1,0 +1,22 @@
+{
+  "name": "gigs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node-inspector & nodemon --debug server",
+    "start": "node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "knex": "^0.12.1",
+    "sqlite3": "^3.1.4",
+    "morgan": "^1.7.0"
+  }
+}
